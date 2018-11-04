@@ -91,7 +91,7 @@ func (s *Spider) run() {
 
 		select {
 		case <-s.hub.StopCh:
-			log.Println("spider has stopped.")
+			log.Println("Spider stopped.")
 			close(s.hub.ResponseBodyCh)
 			return
 		case s.hub.ResponseBodyCh <- &body:
