@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ethtx-spider/config"
+	"github.com/ethplorer-spider/config"
 	"log"
 	"sync"
 	"time"

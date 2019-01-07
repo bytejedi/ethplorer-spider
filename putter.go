@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ethtx-spider/config"
 	"fmt"
+	"github.com/ethplorer-spider/config"
 	"log"
 )
 
